@@ -4,7 +4,7 @@ const app = express()
 
 
 app.get('/', (req,res)=>{
-res.status(201).json({success:true, data:{message:"Congratulation bro!!!"}})
+res.status(201).json({success:true, data:{message:"Working on CI/CD pipline!!!"}})
 })
 
 app.get('/send', (req,res)=>{
